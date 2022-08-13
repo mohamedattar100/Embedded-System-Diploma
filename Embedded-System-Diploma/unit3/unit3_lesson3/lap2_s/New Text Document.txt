@@ -1,0 +1,8 @@
+arm-none-eabi-as.exe -mcpu=cortex-m3 -gdwarf-2 startup.s -o startup.o
+arm-none-eabi-gcc.exe -mcpu=cortex-m3 -gdwarf-2 -I . -c app.c -o app.o
+arm-none-eabi-ld.exe -T linker_script.ld app.o startup.o -o learn-in-depth.elf
+arm-none-eabi-ld.exe -T linker_script.ld app.o startup.o -o learn-in-depth.elf -Map=Map_file.map
+arm-none-eabi-objcopy.exe -O binary learn-in-depth.elf learn-in-depth.hex
+
+
+export PATH=../../../../ARM/bin/:$PATH

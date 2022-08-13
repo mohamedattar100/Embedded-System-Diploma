@@ -1,0 +1,1 @@
+export PATH=/d/embeded_deploma/ARM/bin:$PATH
