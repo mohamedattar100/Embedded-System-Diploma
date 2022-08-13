@@ -1,0 +1,23 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 6, 2022
+ *      Author: Mohamed
+ */
+
+#include "CA.h"
+void setup()
+{
+	// init all drivers
+	// init IRQ......
+	//init BLOCK
+	// set state pointer
+	CA_stata=state(CA_wating);
+}
+
+void  main() {
+	setup();
+	while(1){
+		CA_state();
+	}
+}

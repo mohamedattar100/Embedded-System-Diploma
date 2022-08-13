@@ -1,0 +1,32 @@
+/*
+ * CA.c
+ *
+ *  Created on: Aug 6, 2022
+ *      Author: Mohamed
+ */
+//variables not appear outside
+
+
+int CA_speed=0;
+int CA_ditance=0;
+int CA_threshold=50;
+//state pointer to func
+extern void (*CA_state)();
+
+state_define(CA_wating){
+	CA_state_id = CA_wating;
+	CA_speed=0;
+	if(CA_ditance<= CA_threshold) CA_state= state(CA_wating);
+	else CA_state= state(CA_driving);
+	printf("CA_Wating state distance=%d  speed=%d \n", CA_ditance, CA_speed);
+}
+
+state_define(CA_driving){
+	CA_state_id = CA_driving;
+	CA_speed=300;
+	if(CA_ditance> CA_threshold) CA_state= state(CA_driving);
+	else CA_state= state(CA_wating);
+	printf("CA_driving state distance=%d  speed=%d \n", CA_ditance, CA_speed);
+
+}
+

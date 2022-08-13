@@ -1,0 +1,14 @@
+/*
+ * CA.c
+ *
+ *  Created on: Aug 6, 2022
+ *      Author: Mohamed
+ */
+//variables not appear outside
+
+
+int CA_speed=0;
+int CA_ditance=0;
+int CA_threshold=50;
+
+extern void (*CA_state)();

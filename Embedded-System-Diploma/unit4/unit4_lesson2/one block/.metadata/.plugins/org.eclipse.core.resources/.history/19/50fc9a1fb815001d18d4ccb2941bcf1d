@@ -1,0 +1,19 @@
+/*
+ * main.c
+ *
+ *  Created on: Aug 6, 2022
+ *      Author: Mohamed
+ */
+
+#include "CA.h"
+void setup(){
+	CA_state=state(CA_wating);
+
+}
+
+void  main() {
+	setup();
+	while(1){
+		CA_state();
+	}
+}

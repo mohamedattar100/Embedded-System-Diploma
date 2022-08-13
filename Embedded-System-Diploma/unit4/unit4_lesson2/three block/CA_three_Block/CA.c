@@ -1,0 +1,46 @@
+/*
+ * CA.c
+ *
+ *  Created on: Aug 6, 2022
+ *      Author: Mohamed
+ */
+//variables not appear outside
+
+#include "CA.h"
+
+int CA_speed=0,CA_ditance=0,CA_threshold=50;
+
+
+
+
+//state pointer to func
+void (*CA_state)();
+
+US_distance_set(int d){
+	 CA_ditance=d;
+	 if(CA_ditance<= CA_threshold) CA_state= state(CA_wating);
+	else CA_state= state(CA_driving);
+	printf("Ultrasonic---distance=%d------>CA\n",CA_ditance);
+	
+}
+
+state_define(CA_wating){
+	CA_state_id = CA_wating;
+	printf("CA_Wating state distance=%d  speed=%d \n", CA_ditance, CA_speed);
+
+	CA_speed=0;
+	
+	DC_motor(CA_speed);
+}
+
+state_define(CA_driving){
+	CA_state_id = CA_driving;
+	printf("CA_driving state distance=%d  speed=%d \n", CA_ditance, CA_speed);
+
+	CA_speed=30;
+	
+	DC_motor(CA_speed);
+
+}
+
+

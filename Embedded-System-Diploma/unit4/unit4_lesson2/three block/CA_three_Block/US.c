@@ -1,0 +1,45 @@
+/*
+ * US.c
+ *
+ *  Created on: Aug 6, 2022
+ *      Author: Mohamed
+ */
+//variables not appear outside
+
+#include "US.h"
+
+int US_ditance=0;
+
+
+int get_rand(int l,int h,int count);
+
+
+//state pointer to func
+void (*US_state)();
+
+void US_init(){
+	printf("US_init");
+}
+
+
+
+state_define(US_busy){
+	US_state_id = US_busy;
+	
+	US_ditance= get_rand(45,55,1);
+	
+	printf("US_Wating state distance=%d \n", US_ditance);
+
+	US_distance_set(US_ditance);
+
+	US_state =  state(US_busy);
+}
+
+
+int get_rand(int l,int h,int count){
+	int i;
+	for(i=0;i<count;i++){
+		int num = (rand()%(h-l+1))+l;
+		return num;
+	}
+}

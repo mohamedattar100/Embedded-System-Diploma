@@ -1,0 +1,788 @@
+20:38:01 **** Rebuild of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:11:2: error: 'CA_state' undeclared (first use in this function)
+  CA_state=state(CA_wating);
+  ^~~~~~~~
+..\main.c:11:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: At top level:
+..\main.c:15:6: error: two or more data types in declaration specifiers
+ void int main() {
+      ^~~
+..\main.c:15:10: warning: return type of 'main' is not 'int' [-Wmain]
+ void int main() {
+          ^~~~
+..\main.c: In function 'main':
+..\main.c:17:3: warning: implicit declaration of function 'CA_state' [-Wimplicit-function-declaration]
+   CA_state();
+   ^~~~~~~~
+20:39:18 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:10:2: error: 'CA_state' undeclared (first use in this function)
+  CA_state=state(CA_wating);
+  ^~~~~~~~
+..\main.c:10:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: At top level:
+..\main.c:14:6: error: two or more data types in declaration specifiers
+ void int main() {
+      ^~~
+..\main.c:14:10: warning: return type of 'main' is not 'int' [-Wmain]
+ void int main() {
+          ^~~~
+..\main.c: In function 'main':
+..\main.c:16:3: warning: implicit declaration of function 'CA_state' [-Wimplicit-function-declaration]
+   CA_state();
+   ^~~~~~~~
+20:39:30 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:10:2: error: 'CA_state' undeclared (first use in this function)
+  CA_state=state(CA_wating);
+  ^~~~~~~~
+..\main.c:10:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: At top level:
+..\main.c:14:6: error: two or more data types in declaration specifiers
+ void int main() {
+      ^~~
+..\main.c:14:10: warning: return type of 'main' is not 'int' [-Wmain]
+ void int main() {
+          ^~~~
+..\main.c: In function 'main':
+..\main.c:16:3: warning: implicit declaration of function 'CA_state' [-Wimplicit-function-declaration]
+   CA_state();
+   ^~~~~~~~
+20:39:31 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o CA.o "..\\CA.c" 
+..\CA.c: In function 'get_rand':
+..\CA.c:43:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:10:2: error: 'CA_state' undeclared (first use in this function)
+  CA_state=state(CA_wating);
+  ^~~~~~~~
+..\main.c:10:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: At top level:
+..\main.c:14:6: error: two or more data types in declaration specifiers
+ void int main() {
+      ^~~
+..\main.c:14:10: warning: return type of 'main' is not 'int' [-Wmain]
+ void int main() {
+          ^~~~
+..\main.c: In function 'main':
+..\main.c:16:3: warning: implicit declaration of function 'CA_state' [-Wimplicit-function-declaration]
+   CA_state();
+   ^~~~~~~~
+20:40:14 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:10:2: error: 'CA_state' undeclared (first use in this function)
+  CA_state=state(CA_wating);
+  ^~~~~~~~
+..\main.c:10:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: At top level:
+..\main.c:14:7: warning: return type of 'main' is not 'int' [-Wmain]
+ void  main() {
+       ^~~~
+..\main.c: In function 'main':
+..\main.c:16:2: error: expected ';' before 'while'
+  while(1){
+  ^~~~~
+20:40:21 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:10:2: error: 'CA_state' undeclared (first use in this function)
+  CA_state=state(CA_wating);
+  ^~~~~~~~
+..\main.c:10:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: At top level:
+..\main.c:14:7: warning: return type of 'main' is not 'int' [-Wmain]
+ void  main() {
+       ^~~~
+..\main.c: In function 'main':
+..\main.c:16:2: error: expected ';' before 'while'
+  while(1){
+  ^~~~~
+20:40:25 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:10:2: error: 'CA_state' undeclared (first use in this function)
+  CA_state=state(CA_wating);
+  ^~~~~~~~
+..\main.c:10:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: At top level:
+..\main.c:14:7: warning: return type of 'main' is not 'int' [-Wmain]
+ void  main() {
+       ^~~~
+..\main.c: In function 'main':
+..\main.c:16:2: error: expected ';' before 'while'
+  while(1){
+  ^~~~~
+20:40:26 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:10:2: error: 'CA_state' undeclared (first use in this function)
+  CA_state=state(CA_wating);
+  ^~~~~~~~
+..\main.c:10:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: At top level:
+..\main.c:14:7: warning: return type of 'main' is not 'int' [-Wmain]
+ void  main() {
+       ^~~~
+..\main.c: In function 'main':
+..\main.c:16:2: error: expected ';' before 'while'
+  while(1){
+  ^~~~~
+20:40:50 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:10:2: error: 'CA_state' undeclared (first use in this function)
+  CA_state=state(CA_wating);
+  ^~~~~~~~
+..\main.c:10:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: At top level:
+..\main.c:14:7: warning: return type of 'main' is not 'int' [-Wmain]
+ void  main() {
+       ^~~~
+..\main.c: In function 'main':
+..\main.c:17:3: warning: implicit declaration of function 'CA_state' [-Wimplicit-function-declaration]
+   CA_state();
+   ^~~~~~~~
+20:46:48 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:10:2: error: 'CA_state' undeclared (first use in this function)
+  CA_state = state(CA_wating);
+  ^~~~~~~~
+..\main.c:10:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: At top level:
+..\main.c:14:7: warning: return type of 'main' is not 'int' [-Wmain]
+ void  main() {
+       ^~~~
+..\main.c: In function 'main':
+..\main.c:17:3: warning: implicit declaration of function 'CA_state' [-Wimplicit-function-declaration]
+   CA_state();
+   ^~~~~~~~
+20:49:26 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:15:2: error: 'CA_stata' undeclared (first use in this function)
+  CA_stata=state(CA_wating);
+  ^~~~~~~~
+..\main.c:15:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: In function 'main':
+..\main.c:24:3: warning: implicit declaration of function 'CA_stata' [-Wimplicit-function-declaration]
+   CA_stata();
+   ^~~~~~~~
+20:49:47 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:15:2: error: 'CA_stata' undeclared (first use in this function)
+  CA_stata=state(CA_wating);
+  ^~~~~~~~
+..\main.c:15:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: In function 'main':
+..\main.c:24:3: warning: implicit declaration of function 'CA_stata' [-Wimplicit-function-declaration]
+   CA_stata();
+   ^~~~~~~~
+20:49:48 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:15:2: error: 'CA_stata' undeclared (first use in this function)
+  CA_stata=state(CA_wating);
+  ^~~~~~~~
+..\main.c:15:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: In function 'main':
+..\main.c:24:3: warning: implicit declaration of function 'CA_stata' [-Wimplicit-function-declaration]
+   CA_stata();
+   ^~~~~~~~
+20:49:48 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:15:2: error: 'CA_stata' undeclared (first use in this function)
+  CA_stata=state(CA_wating);
+  ^~~~~~~~
+..\main.c:15:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: In function 'main':
+..\main.c:24:3: warning: implicit declaration of function 'CA_stata' [-Wimplicit-function-declaration]
+   CA_stata();
+   ^~~~~~~~
+20:50:51 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:15:2: error: 'CA_stata' undeclared (first use in this function)
+  CA_stata = state(CA_wating);
+  ^~~~~~~~
+..\main.c:15:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: In function 'main':
+..\main.c:24:3: warning: implicit declaration of function 'CA_stata' [-Wimplicit-function-declaration]
+   CA_stata();
+   ^~~~~~~~
+20:55:30 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o CA.o "..\\CA.c" 
+..\CA.c: In function 'get_rand':
+..\CA.c:42:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:15:2: error: 'CA_stata' undeclared (first use in this function)
+  CA_stata = state(CA_wating);
+  ^~~~~~~~
+..\main.c:15:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: In function 'main':
+..\main.c:24:3: warning: implicit declaration of function 'CA_stata' [-Wimplicit-function-declaration]
+   CA_stata();
+   ^~~~~~~~
+20:55:54 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:15:2: error: 'CA_stata' undeclared (first use in this function)
+  CA_stata = state(CA_wating);
+  ^~~~~~~~
+..\main.c:15:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: In function 'main':
+..\main.c:24:3: warning: implicit declaration of function 'CA_stata' [-Wimplicit-function-declaration]
+   CA_stata();
+   ^~~~~~~~
+20:55:58 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:15:2: error: 'CA_stata' undeclared (first use in this function)
+  CA_stata = state(CA_wating);
+  ^~~~~~~~
+..\main.c:15:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: In function 'main':
+..\main.c:24:3: warning: implicit declaration of function 'CA_stata' [-Wimplicit-function-declaration]
+   CA_stata();
+   ^~~~~~~~
+20:56:05 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:15:2: error: 'CA_stata' undeclared (first use in this function)
+  CA_stata = state(CA_wating);
+  ^~~~~~~~
+..\main.c:15:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: In function 'main':
+..\main.c:24:3: warning: implicit declaration of function 'CA_stata' [-Wimplicit-function-declaration]
+   CA_stata();
+   ^~~~~~~~
+20:57:11 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o CA.o "..\\CA.c" 
+..\CA.c: In function 'get_rand':
+..\CA.c:42:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:15:2: error: 'CA_stata' undeclared (first use in this function)
+  CA_stata = state(CA_wating);
+  ^~~~~~~~
+..\main.c:15:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: In function 'main':
+..\main.c:24:3: warning: implicit declaration of function 'CA_stata' [-Wimplicit-function-declaration]
+   CA_stata();
+   ^~~~~~~~
+17:05:02 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o CA.o "..\\CA.c" 
+..\CA.c: In function 'get_rand':
+..\CA.c:41:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'setup':
+..\main.c:15:2: error: 'CA_stata' undeclared (first use in this function)
+  CA_stata = state(CA_wating);
+  ^~~~~~~~
+..\main.c:15:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c: In function 'main':
+..\main.c:24:3: warning: implicit declaration of function 'CA_stata' [-Wimplicit-function-declaration]
+   CA_stata();
+   ^~~~~~~~
+17:06:18 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:24:3: warning: implicit declaration of function 'CA_stata' [-Wimplicit-function-declaration]
+   CA_stata();
+   ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o CA.o "..\\CA.c" 
+..\CA.c: In function 'get_rand':
+..\CA.c:44:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o CA_one_Block.exe CA.o main.o 
+main.o: In function `main':
+D:\embeded_deploma\unit4\unit4_lesson2\one block\CA_one_Block\Debug/../main.c:24: undefined reference to `CA_stata'
+collect2.exe: error: ld returned 1 exit status
+17:06:30 **** Incremental Build of configuration Debug for project CA_one_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o CA_one_Block.exe CA.o main.o 
+Info: Nothing to build for CA_one_Block
+Info: Nothing to build for CA_one_Block
+Info: Nothing to build for CA_one_Block
+22:06:40 **** Rebuild of configuration Debug for project CA_three_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o DC.o "..\\DC.c" 
+In file included from ..\DC.h:10:0,
+                 from ..\DC.c:9:
+..\state.h:19:1: warning: data definition has no type or storage class
+ US_distance_set(int d);
+ ^~~~~~~~~~~~~~~
+..\state.h:19:1: warning: type defaults to 'int' in declaration of 'US_distance_set' [-Wimplicit-int]
+..\state.h:20:1: warning: data definition has no type or storage class
+ DC_motor(int s);
+ ^~~~~~~~
+..\state.h:20:1: warning: type defaults to 'int' in declaration of 'DC_motor' [-Wimplicit-int]
+..\DC.c:27:6: error: conflicting types for 'DC_motor'
+ void DC_motor(int s)
+      ^~~~~~~~
+In file included from ..\DC.h:10:0,
+                 from ..\DC.c:9:
+..\state.h:20:1: note: previous declaration of 'DC_motor' was here
+ DC_motor(int s);
+ ^~~~~~~~
+..\DC.c: In function 'ST_DC_busy':
+..\DC.c:40:16: error: 'DC_driving' undeclared (first use in this function)
+  DC_state_id = DC_driving;
+                ^~~~~~~~~~
+..\DC.c:40:16: note: each undeclared identifier is reported only once for each function it appears in
+..\DC.c:43:2: error: 'DC_stata' undeclared (first use in this function)
+  DC_stata=state(DC_idle);
+  ^~~~~~~~
+..\DC.c: In function 'get_rand':
+..\DC.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for CA_one_Block
+22:07:02 **** Incremental Build of configuration Debug for project CA_three_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o DC.o "..\\DC.c" 
+In file included from ..\DC.h:10:0,
+                 from ..\DC.c:9:
+..\state.h:19:1: warning: data definition has no type or storage class
+ US_distance_set(int d);
+ ^~~~~~~~~~~~~~~
+..\state.h:19:1: warning: type defaults to 'int' in declaration of 'US_distance_set' [-Wimplicit-int]
+..\state.h:20:1: warning: data definition has no type or storage class
+ DC_motor(int s);
+ ^~~~~~~~
+..\state.h:20:1: warning: type defaults to 'int' in declaration of 'DC_motor' [-Wimplicit-int]
+..\DC.c:27:6: error: conflicting types for 'DC_motor'
+ void DC_motor(int s)
+      ^~~~~~~~
+In file included from ..\DC.h:10:0,
+                 from ..\DC.c:9:
+..\state.h:20:1: note: previous declaration of 'DC_motor' was here
+ DC_motor(int s);
+ ^~~~~~~~
+..\DC.c: In function 'ST_DC_busy':
+..\DC.c:40:16: error: 'DC_driving' undeclared (first use in this function)
+  DC_state_id = DC_driving;
+                ^~~~~~~~~~
+..\DC.c:40:16: note: each undeclared identifier is reported only once for each function it appears in
+..\DC.c:43:2: error: 'DC_stata' undeclared (first use in this function)
+  DC_stata=state(DC_idle);
+  ^~~~~~~~
+..\DC.c: In function 'get_rand':
+..\DC.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for CA_one_Block
+22:07:05 **** Incremental Build of configuration Debug for project CA_three_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+In file included from ..\CA.h:10:0,
+                 from ..\main.c:8:
+..\state.h:19:1: warning: data definition has no type or storage class
+ US_distance_set(int d);
+ ^~~~~~~~~~~~~~~
+..\state.h:19:1: warning: type defaults to 'int' in declaration of 'US_distance_set' [-Wimplicit-int]
+..\state.h:20:1: warning: data definition has no type or storage class
+ DC_motor(int s);
+ ^~~~~~~~
+..\state.h:20:1: warning: type defaults to 'int' in declaration of 'DC_motor' [-Wimplicit-int]
+..\main.c: In function 'setup':
+..\main.c:18:2: error: 'DC_stata' undeclared (first use in this function)
+  DC_stata=state(DC_idle);
+  ^~~~~~~~
+..\main.c:18:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:19:2: error: 'US_stata' undeclared (first use in this function)
+  US_stata=state(US_busy);
+  ^~~~~~~~
+..\main.c: In function 'main':
+..\main.c:28:3: warning: implicit declaration of function 'US_stata' [-Wimplicit-function-declaration]
+   US_stata();
+   ^~~~~~~~
+..\main.c:29:3: warning: implicit declaration of function 'CA_stata' [-Wimplicit-function-declaration]
+   CA_stata();
+   ^~~~~~~~
+..\main.c:30:3: warning: implicit declaration of function 'DC_stata' [-Wimplicit-function-declaration]
+   DC_stata();
+   ^~~~~~~~
+Info: Nothing to build for CA_one_Block
+22:07:05 **** Incremental Build of configuration Debug for project CA_three_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o CA.o "..\\CA.c" 
+In file included from ..\CA.h:10:0,
+                 from ..\CA.c:9:
+..\state.h:19:1: warning: data definition has no type or storage class
+ US_distance_set(int d);
+ ^~~~~~~~~~~~~~~
+..\state.h:19:1: warning: type defaults to 'int' in declaration of 'US_distance_set' [-Wimplicit-int]
+..\state.h:20:1: warning: data definition has no type or storage class
+ DC_motor(int s);
+ ^~~~~~~~
+..\state.h:20:1: warning: type defaults to 'int' in declaration of 'DC_motor' [-Wimplicit-int]
+..\CA.c:20:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ US_distance_set(int d){
+ ^~~~~~~~~~~~~~~
+..\CA.c: In function 'US_distance_set':
+..\CA.c:26:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\CA.c: In function 'get_rand':
+..\CA.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+In file included from ..\CA.h:10:0,
+                 from ..\main.c:8:
+..\state.h:19:1: warning: data definition has no type or storage class
+ US_distance_set(int d);
+ ^~~~~~~~~~~~~~~
+..\state.h:19:1: warning: type defaults to 'int' in declaration of 'US_distance_set' [-Wimplicit-int]
+..\state.h:20:1: warning: data definition has no type or storage class
+ DC_motor(int s);
+ ^~~~~~~~
+..\state.h:20:1: warning: type defaults to 'int' in declaration of 'DC_motor' [-Wimplicit-int]
+..\main.c: In function 'setup':
+..\main.c:18:2: error: 'DC_stata' undeclared (first use in this function)
+  DC_stata=state(DC_idle);
+  ^~~~~~~~
+..\main.c:18:2: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:19:2: error: 'US_stata' undeclared (first use in this function)
+  US_stata=state(US_busy);
+  ^~~~~~~~
+..\main.c: In function 'main':
+..\main.c:28:3: warning: implicit declaration of function 'US_stata' [-Wimplicit-function-declaration]
+   US_stata();
+   ^~~~~~~~
+..\main.c:29:3: warning: implicit declaration of function 'CA_stata' [-Wimplicit-function-declaration]
+   CA_stata();
+   ^~~~~~~~
+..\main.c:30:3: warning: implicit declaration of function 'DC_stata' [-Wimplicit-function-declaration]
+   DC_stata();
+   ^~~~~~~~
+Info: Nothing to build for CA_one_Block
+22:07:24 **** Incremental Build of configuration Debug for project CA_three_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+In file included from ..\CA.h:10:0,
+                 from ..\main.c:8:
+..\state.h:19:1: warning: data definition has no type or storage class
+ US_distance_set(int d);
+ ^~~~~~~~~~~~~~~
+..\state.h:19:1: warning: type defaults to 'int' in declaration of 'US_distance_set' [-Wimplicit-int]
+..\state.h:20:1: warning: data definition has no type or storage class
+ DC_motor(int s);
+ ^~~~~~~~
+..\state.h:20:1: warning: type defaults to 'int' in declaration of 'DC_motor' [-Wimplicit-int]
+..\main.c: In function 'main':
+..\main.c:28:3: warning: implicit declaration of function 'US_stata' [-Wimplicit-function-declaration]
+   US_stata();
+   ^~~~~~~~
+..\main.c:29:3: warning: implicit declaration of function 'CA_stata' [-Wimplicit-function-declaration]
+   CA_stata();
+   ^~~~~~~~
+..\main.c:30:3: warning: implicit declaration of function 'DC_stata' [-Wimplicit-function-declaration]
+   DC_stata();
+   ^~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o DC.o "..\\DC.c" 
+In file included from ..\DC.h:10:0,
+                 from ..\DC.c:9:
+..\state.h:19:1: warning: data definition has no type or storage class
+ US_distance_set(int d);
+ ^~~~~~~~~~~~~~~
+..\state.h:19:1: warning: type defaults to 'int' in declaration of 'US_distance_set' [-Wimplicit-int]
+..\state.h:20:1: warning: data definition has no type or storage class
+ DC_motor(int s);
+ ^~~~~~~~
+..\state.h:20:1: warning: type defaults to 'int' in declaration of 'DC_motor' [-Wimplicit-int]
+..\DC.c:27:6: error: conflicting types for 'DC_motor'
+ void DC_motor(int s)
+      ^~~~~~~~
+In file included from ..\DC.h:10:0,
+                 from ..\DC.c:9:
+..\state.h:20:1: note: previous declaration of 'DC_motor' was here
+ DC_motor(int s);
+ ^~~~~~~~
+..\DC.c: In function 'ST_DC_busy':
+..\DC.c:40:16: error: 'DC_driving' undeclared (first use in this function)
+  DC_state_id = DC_driving;
+                ^~~~~~~~~~
+..\DC.c:40:16: note: each undeclared identifier is reported only once for each function it appears in
+..\DC.c:43:2: error: 'DC_stata' undeclared (first use in this function)
+  DC_stata=state(DC_idle);
+  ^~~~~~~~
+..\DC.c: In function 'get_rand':
+..\DC.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for CA_one_Block
+22:07:41 **** Incremental Build of configuration Debug for project CA_three_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o DC.o "..\\DC.c" 
+In file included from ..\DC.h:10:0,
+                 from ..\DC.c:9:
+..\state.h:19:1: warning: data definition has no type or storage class
+ US_distance_set(int d);
+ ^~~~~~~~~~~~~~~
+..\state.h:19:1: warning: type defaults to 'int' in declaration of 'US_distance_set' [-Wimplicit-int]
+..\state.h:20:1: warning: data definition has no type or storage class
+ DC_motor(int s);
+ ^~~~~~~~
+..\state.h:20:1: warning: type defaults to 'int' in declaration of 'DC_motor' [-Wimplicit-int]
+..\DC.c:27:6: error: conflicting types for 'DC_motor'
+ void DC_motor(int s)
+      ^~~~~~~~
+In file included from ..\DC.h:10:0,
+                 from ..\DC.c:9:
+..\state.h:20:1: note: previous declaration of 'DC_motor' was here
+ DC_motor(int s);
+ ^~~~~~~~
+..\DC.c: In function 'ST_DC_busy':
+..\DC.c:40:16: error: 'DC_driving' undeclared (first use in this function)
+  DC_state_id = DC_driving;
+                ^~~~~~~~~~
+..\DC.c:40:16: note: each undeclared identifier is reported only once for each function it appears in
+..\DC.c:43:2: error: 'DC_stata' undeclared (first use in this function)
+  DC_stata=state(DC_idle);
+  ^~~~~~~~
+..\DC.c: In function 'get_rand':
+..\DC.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for CA_one_Block
+22:07:46 **** Incremental Build of configuration Debug for project CA_three_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o US.o "..\\US.c" 
+In file included from ..\US.h:10:0,
+                 from ..\US.c:9:
+..\state.h:19:1: warning: data definition has no type or storage class
+ US_distance_set(int d);
+ ^~~~~~~~~~~~~~~
+..\state.h:19:1: warning: type defaults to 'int' in declaration of 'US_distance_set' [-Wimplicit-int]
+..\state.h:20:1: warning: data definition has no type or storage class
+ DC_motor(int s);
+ ^~~~~~~~
+..\state.h:20:1: warning: type defaults to 'int' in declaration of 'DC_motor' [-Wimplicit-int]
+..\US.c:20:1: error: unknown type name 'oid'
+ oid US_init(){
+ ^~~
+..\US.c:20:5: error: conflicting types for 'US_init'
+ oid US_init(){
+     ^~~~~~~
+In file included from ..\US.c:9:0:
+..\US.h:16:6: note: previous declaration of 'US_init' was here
+ void US_init();
+      ^~~~~~~
+..\US.c: In function 'US_init':
+..\US.c:22:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\US.c: In function 'get_rand':
+..\US.c:45:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for CA_one_Block
+22:08:11 **** Incremental Build of configuration Debug for project CA_three_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o US.o "..\\US.c" 
+In file included from ..\US.h:10:0,
+                 from ..\US.c:9:
+..\state.h:19:1: warning: data definition has no type or storage class
+ US_distance_set(int d);
+ ^~~~~~~~~~~~~~~
+..\state.h:19:1: warning: type defaults to 'int' in declaration of 'US_distance_set' [-Wimplicit-int]
+..\state.h:20:1: warning: data definition has no type or storage class
+ DC_motor(int s);
+ ^~~~~~~~
+..\state.h:20:1: warning: type defaults to 'int' in declaration of 'DC_motor' [-Wimplicit-int]
+..\US.c: In function 'get_rand':
+..\US.c:45:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o DC.o "..\\DC.c" 
+In file included from ..\DC.h:10:0,
+                 from ..\DC.c:9:
+..\state.h:19:1: warning: data definition has no type or storage class
+ US_distance_set(int d);
+ ^~~~~~~~~~~~~~~
+..\state.h:19:1: warning: type defaults to 'int' in declaration of 'US_distance_set' [-Wimplicit-int]
+..\state.h:20:1: warning: data definition has no type or storage class
+ DC_motor(int s);
+ ^~~~~~~~
+..\state.h:20:1: warning: type defaults to 'int' in declaration of 'DC_motor' [-Wimplicit-int]
+..\DC.c:27:6: error: conflicting types for 'DC_motor'
+ void DC_motor(int s)
+      ^~~~~~~~
+In file included from ..\DC.h:10:0,
+                 from ..\DC.c:9:
+..\state.h:20:1: note: previous declaration of 'DC_motor' was here
+ DC_motor(int s);
+ ^~~~~~~~
+..\DC.c: In function 'ST_DC_busy':
+..\DC.c:40:16: error: 'DC_driving' undeclared (first use in this function)
+  DC_state_id = DC_driving;
+                ^~~~~~~~~~
+..\DC.c:40:16: note: each undeclared identifier is reported only once for each function it appears in
+..\DC.c:43:2: error: 'DC_stata' undeclared (first use in this function)
+  DC_stata=state(DC_idle);
+  ^~~~~~~~
+..\DC.c: In function 'get_rand':
+..\DC.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for CA_one_Block
+22:10:38 **** Incremental Build of configuration Debug for project CA_three_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o DC.o "..\\DC.c" 
+..\DC.c: In function 'ST_DC_busy':
+..\DC.c:40:16: error: 'DC_driving' undeclared (first use in this function)
+  DC_state_id = DC_driving;
+                ^~~~~~~~~~
+..\DC.c:40:16: note: each undeclared identifier is reported only once for each function it appears in
+..\DC.c:43:2: error: 'DC_stata' undeclared (first use in this function)
+  DC_stata=state(DC_idle);
+  ^~~~~~~~
+..\DC.c: In function 'get_rand':
+..\DC.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for CA_one_Block
+22:10:52 **** Incremental Build of configuration Debug for project CA_three_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o US.o "..\\US.c" 
+..\US.c: In function 'get_rand':
+..\US.c:45:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o DC.o "..\\DC.c" 
+..\DC.c: In function 'ST_DC_busy':
+..\DC.c:40:16: error: 'DC_driving' undeclared (first use in this function)
+  DC_state_id = DC_driving;
+                ^~~~~~~~~~
+..\DC.c:40:16: note: each undeclared identifier is reported only once for each function it appears in
+..\DC.c:43:2: error: 'DC_stata' undeclared (first use in this function)
+  DC_stata=state(DC_idle);
+  ^~~~~~~~
+..\DC.c: In function 'get_rand':
+..\DC.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for CA_one_Block
+22:11:14 **** Incremental Build of configuration Debug for project CA_three_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o CA.o "..\\CA.c" 
+..\CA.c:20:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ US_distance_set(int d){
+ ^~~~~~~~~~~~~~~
+..\CA.c:20:1: warning: conflicting types for 'US_distance_set'
+In file included from ..\CA.h:10:0,
+                 from ..\CA.c:9:
+..\state.h:19:6: note: previous declaration of 'US_distance_set' was here
+ void US_distance_set(int d);
+      ^~~~~~~~~~~~~~~
+..\CA.c: In function 'get_rand':
+..\CA.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o DC.o "..\\DC.c" 
+..\DC.c: In function 'ST_DC_busy':
+..\DC.c:43:2: error: 'DC_stata' undeclared (first use in this function)
+  DC_stata=state(DC_idle);
+  ^~~~~~~~
+..\DC.c:43:2: note: each undeclared identifier is reported only once for each function it appears in
+..\DC.c: In function 'get_rand':
+..\DC.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for CA_one_Block
+22:11:53 **** Incremental Build of configuration Debug for project CA_three_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o DC.o "..\\DC.c" 
+..\DC.c: In function 'ST_DC_busy':
+..\DC.c:43:2: error: 'DC_stata' undeclared (first use in this function)
+  DC_stata=state(DC_idle);
+  ^~~~~~~~
+..\DC.c:43:2: note: each undeclared identifier is reported only once for each function it appears in
+..\DC.c: In function 'get_rand':
+..\DC.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Info: Nothing to build for CA_one_Block
+22:18:46 **** Incremental Build of configuration Debug for project CA_three_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o DC.o "..\\DC.c" 
+..\DC.c: In function 'get_rand':
+..\DC.c:53:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -o CA_three_Block.exe CA.o DC.o US.o main.o 
+DC.o: In function `get_rand':
+D:\embeded_deploma\unit4\unit4_lesson2\one block\CA_three_Block\Debug/../DC.c:47: multiple definition of `get_rand'
+CA.o:D:\embeded_deploma\unit4\unit4_lesson2\one block\CA_three_Block\Debug/../CA.c:47: first defined here
+US.o: In function `get_rand':
+D:\embeded_deploma\unit4\unit4_lesson2\one block\CA_three_Block\Debug/../US.c:39: multiple definition of `get_rand'
+CA.o:D:\embeded_deploma\unit4\unit4_lesson2\one block\CA_three_Block\Debug/../CA.c:47: first defined here
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for CA_one_Block
+22:19:59 **** Incremental Build of configuration Debug for project CA_three_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o DC.o "..\\DC.c" 
+gcc -o CA_three_Block.exe CA.o DC.o US.o main.o 
+US.o: In function `get_rand':
+D:\embeded_deploma\unit4\unit4_lesson2\one block\CA_three_Block\Debug/../US.c:39: multiple definition of `get_rand'
+CA.o:D:\embeded_deploma\unit4\unit4_lesson2\one block\CA_three_Block\Debug/../CA.c:47: first defined here
+collect2.exe: error: ld returned 1 exit status
+Info: Nothing to build for CA_one_Block
+22:24:10 **** Incremental Build of configuration Debug for project CA_three_Block ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o CA.o "..\\CA.c" 
+..\CA.c:19:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ US_distance_set(int d){
+ ^~~~~~~~~~~~~~~
+..\CA.c:19:1: warning: conflicting types for 'US_distance_set'
+In file included from ..\CA.h:10:0,
+                 from ..\CA.c:9:
+..\state.h:19:6: note: previous declaration of 'US_distance_set' was here
+ void US_distance_set(int d);
+      ^~~~~~~~~~~~~~~
+gcc -o CA_three_Block.exe CA.o DC.o US.o main.o 
+Info: Nothing to build for CA_one_Block
