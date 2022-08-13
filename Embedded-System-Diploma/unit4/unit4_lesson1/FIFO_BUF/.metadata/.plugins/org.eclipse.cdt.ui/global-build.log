@@ -1,0 +1,231 @@
+15:51:38 **** Rebuild of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fifo.o" "..\\src\\fifo.c" 
+..\src\fifo.c:10:1: warning: return type defaults to 'int' [-Wimplicit-int]
+ FIFO_init(FIFO_BUF_t* fifo_buf , element_type* buf,unsigned int length){
+ ^~~~~~~~~
+..\src\fifo.c:10:1: error: conflicting types for 'FIFO_init'
+In file included from ..\src\fifo.c:8:0:
+..\src\fifo.h:34:16: note: previous declaration of 'FIFO_init' was here
+ FIFO_statuts_t FIFO_init(FIFO_BUF_t* fifo_buf , element_type* buf,unsigned int length);
+                ^~~~~~~~~
+16:08:02 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:27:39: warning: passing argument 2 of 'FIFO_dequeue_item' from incompatible pointer type [-Wincompatible-pointer-types]
+         FIFO_dequeue_item(&uart_fifo, &temp);
+                                       ^
+In file included from ..\src\main.c:13:0:
+..\src\fifo.h:36:16: note: expected 'unsigned char *' but argument is of type 'unsigned char **'
+ FIFO_statuts_t FIFO_dequeue_item(FIFO_BUF_t* fifo_buf , element_type* item);
+                ^~~~~~~~~~~~~~~~~
+..\src\main.c:28:37: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned char *' [-Wformat=]
+         printf("FIFO dequeue data= %x\n",temp);
+                                     ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fifo.o" "..\\src\\fifo.c" 
+gcc -o main.exe "src\\fifo.o" "src\\main.o" 
+Info: Nothing to build for main
+16:09:03 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fifo.o" "..\\src\\fifo.c" 
+gcc -o main.exe "src\\fifo.o" "src\\main.o" 
+Info: Nothing to build for main
+16:10:20 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fifo.o" "..\\src\\fifo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:27:39: warning: passing argument 2 of 'FIFO_dequeue_item' from incompatible pointer type [-Wincompatible-pointer-types]
+         FIFO_dequeue_item(&uart_fifo, &temp);
+                                       ^
+In file included from ..\src\main.c:13:0:
+..\src\fifo.h:36:16: note: expected 'unsigned int *' but argument is of type 'unsigned int **'
+ FIFO_statuts_t FIFO_dequeue_item(FIFO_BUF_t* fifo_buf , element_type* item);
+                ^~~~~~~~~~~~~~~~~
+..\src\main.c:28:37: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+         printf("FIFO dequeue data= %x\n",temp);
+                                     ^
+gcc -o main.exe "src\\fifo.o" "src\\main.o" 
+Info: Nothing to build for main
+16:12:37 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:27:39: warning: passing argument 2 of 'FIFO_dequeue_item' from incompatible pointer type [-Wincompatible-pointer-types]
+         FIFO_dequeue_item(&uart_fifo, &temp);
+                                       ^
+In file included from ..\src\main.c:13:0:
+..\src\fifo.h:36:16: note: expected 'unsigned int *' but argument is of type 'unsigned int **'
+ FIFO_statuts_t FIFO_dequeue_item(FIFO_BUF_t* fifo_buf , element_type* item);
+                ^~~~~~~~~~~~~~~~~
+..\src\main.c:28:37: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+         printf("FIFO dequeue data= %x\n",temp);
+                                     ^
+gcc -o main.exe "src\\fifo.o" "src\\main.o" 
+16:14:54 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fifo.o" "..\\src\\fifo.c" 
+gcc -o main.exe "src\\fifo.o" "src\\main.o" 
+Info: Nothing to build for main
+16:15:44 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:27:39: warning: passing argument 2 of 'FIFO_dequeue_item' from incompatible pointer type [-Wincompatible-pointer-types]
+         FIFO_dequeue_item(&uart_fifo, &temp);
+                                       ^
+In file included from ..\src\main.c:13:0:
+..\src\fifo.h:36:16: note: expected 'unsigned int *' but argument is of type 'unsigned int **'
+ FIFO_statuts_t FIFO_dequeue_item(FIFO_BUF_t* fifo_buf , element_type* item);
+                ^~~~~~~~~~~~~~~~~
+..\src\main.c:28:37: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+         printf("FIFO dequeue data= %x\n",temp);
+                                     ^
+..\src\main.c:29:37: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+         printf("FIFO dequeue data= %x\n",temp);
+                                     ^
+gcc -o main.exe "src\\fifo.o" "src\\main.o" 
+Info: Nothing to build for main
+16:16:52 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:27:39: warning: passing argument 2 of 'FIFO_dequeue_item' from incompatible pointer type [-Wincompatible-pointer-types]
+         FIFO_dequeue_item(&uart_fifo, &temp);
+                                       ^
+In file included from ..\src\main.c:13:0:
+..\src\fifo.h:36:16: note: expected 'unsigned int *' but argument is of type 'unsigned int **'
+ FIFO_statuts_t FIFO_dequeue_item(FIFO_BUF_t* fifo_buf , element_type* item);
+                ^~~~~~~~~~~~~~~~~
+..\src\main.c:28:37: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+         printf("FIFO dequeue data= %x\n",temp);
+                                     ^
+..\src\main.c:29:39: warning: passing argument 2 of 'FIFO_dequeue_item' from incompatible pointer type [-Wincompatible-pointer-types]
+         FIFO_dequeue_item(&uart_fifo, &temp);
+                                       ^
+In file included from ..\src\main.c:13:0:
+..\src\fifo.h:36:16: note: expected 'unsigned int *' but argument is of type 'unsigned int **'
+ FIFO_statuts_t FIFO_dequeue_item(FIFO_BUF_t* fifo_buf , element_type* item);
+                ^~~~~~~~~~~~~~~~~
+gcc -o main.exe "src\\fifo.o" "src\\main.o" 
+Info: Nothing to build for main
+16:18:21 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fifo.o" "..\\src\\fifo.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:27:39: warning: passing argument 2 of 'FIFO_dequeue_item' from incompatible pointer type [-Wincompatible-pointer-types]
+         FIFO_dequeue_item(&uart_fifo, &temp);
+                                       ^
+In file included from ..\src\main.c:13:0:
+..\src\fifo.h:36:16: note: expected 'unsigned char *' but argument is of type 'unsigned char **'
+ FIFO_statuts_t FIFO_dequeue_item(FIFO_BUF_t* fifo_buf , element_type* item);
+                ^~~~~~~~~~~~~~~~~
+..\src\main.c:28:37: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned char *' [-Wformat=]
+         printf("dequeue element is %x\n",temp);
+                                     ^
+..\src\main.c:29:39: warning: passing argument 2 of 'FIFO_dequeue_item' from incompatible pointer type [-Wincompatible-pointer-types]
+         FIFO_dequeue_item(&uart_fifo, &temp);
+                                       ^
+In file included from ..\src\main.c:13:0:
+..\src\fifo.h:36:16: note: expected 'unsigned char *' but argument is of type 'unsigned char **'
+ FIFO_statuts_t FIFO_dequeue_item(FIFO_BUF_t* fifo_buf , element_type* item);
+                ^~~~~~~~~~~~~~~~~
+gcc -o main.exe "src\\fifo.o" "src\\main.o" 
+Info: Nothing to build for main
+16:18:59 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:27:39: warning: passing argument 2 of 'FIFO_dequeue_item' from incompatible pointer type [-Wincompatible-pointer-types]
+         FIFO_dequeue_item(&uart_fifo, &temp);
+                                       ^
+In file included from ..\src\main.c:13:0:
+..\src\fifo.h:36:16: note: expected 'unsigned int *' but argument is of type 'unsigned int **'
+ FIFO_statuts_t FIFO_dequeue_item(FIFO_BUF_t* fifo_buf , element_type* item);
+                ^~~~~~~~~~~~~~~~~
+..\src\main.c:28:37: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+         printf("dequeue element is %x\n",temp);
+                                     ^
+..\src\main.c:29:39: warning: passing argument 2 of 'FIFO_dequeue_item' from incompatible pointer type [-Wincompatible-pointer-types]
+         FIFO_dequeue_item(&uart_fifo, &temp);
+                                       ^
+In file included from ..\src\main.c:13:0:
+..\src\fifo.h:36:16: note: expected 'unsigned int *' but argument is of type 'unsigned int **'
+ FIFO_statuts_t FIFO_dequeue_item(FIFO_BUF_t* fifo_buf , element_type* item);
+                ^~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\fifo.o" "..\\src\\fifo.c" 
+gcc -o main.exe "src\\fifo.o" "src\\main.o" 
+16:20:57 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:27:39: warning: passing argument 2 of 'FIFO_dequeue_item' from incompatible pointer type [-Wincompatible-pointer-types]
+         FIFO_dequeue_item(&uart_fifo, &temp);
+                                       ^
+In file included from ..\src\main.c:13:0:
+..\src\fifo.h:36:16: note: expected 'unsigned int *' but argument is of type 'unsigned int **'
+ FIFO_statuts_t FIFO_dequeue_item(FIFO_BUF_t* fifo_buf , element_type* item);
+                ^~~~~~~~~~~~~~~~~
+..\src\main.c:28:37: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+         printf("dequeue element is %x\n",temp);
+                                     ^
+..\src\main.c:29:39: warning: passing argument 2 of 'FIFO_dequeue_item' from incompatible pointer type [-Wincompatible-pointer-types]
+         FIFO_dequeue_item(&uart_fifo, &temp);
+                                       ^
+In file included from ..\src\main.c:13:0:
+..\src\fifo.h:36:16: note: expected 'unsigned int *' but argument is of type 'unsigned int **'
+ FIFO_statuts_t FIFO_dequeue_item(FIFO_BUF_t* fifo_buf , element_type* item);
+                ^~~~~~~~~~~~~~~~~
+..\src\main.c:30:37: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+         printf("dequeue element is %x\n",temp);
+                                     ^
+gcc -o main.exe "src\\fifo.o" "src\\main.o" 
+Info: Nothing to build for main
+16:21:12 **** Incremental Build of configuration Debug for project main ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.c" 
+..\src\main.c: In function 'main':
+..\src\main.c:27:39: warning: passing argument 2 of 'FIFO_dequeue_item' from incompatible pointer type [-Wincompatible-pointer-types]
+         FIFO_dequeue_item(&uart_fifo, &temp);
+                                       ^
+In file included from ..\src\main.c:13:0:
+..\src\fifo.h:36:16: note: expected 'unsigned int *' but argument is of type 'unsigned int **'
+ FIFO_statuts_t FIFO_dequeue_item(FIFO_BUF_t* fifo_buf , element_type* item);
+                ^~~~~~~~~~~~~~~~~
+..\src\main.c:28:37: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+         printf("dequeue element is %x\n",temp);
+                                     ^
+..\src\main.c:29:39: warning: passing argument 2 of 'FIFO_dequeue_item' from incompatible pointer type [-Wincompatible-pointer-types]
+         FIFO_dequeue_item(&uart_fifo, &temp);
+                                       ^
+In file included from ..\src\main.c:13:0:
+..\src\fifo.h:36:16: note: expected 'unsigned int *' but argument is of type 'unsigned int **'
+ FIFO_statuts_t FIFO_dequeue_item(FIFO_BUF_t* fifo_buf , element_type* item);
+                ^~~~~~~~~~~~~~~~~
+..\src\main.c:30:37: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+         printf("dequeue element is %x\n",temp);
+                                     ^
+..\src\main.c:31:39: warning: passing argument 2 of 'FIFO_dequeue_item' from incompatible pointer type [-Wincompatible-pointer-types]
+         FIFO_dequeue_item(&uart_fifo, &temp);
+                                       ^
+In file included from ..\src\main.c:13:0:
+..\src\fifo.h:36:16: note: expected 'unsigned int *' but argument is of type 'unsigned int **'
+ FIFO_statuts_t FIFO_dequeue_item(FIFO_BUF_t* fifo_buf , element_type* item);
+                ^~~~~~~~~~~~~~~~~
+..\src\main.c:32:37: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+         printf("dequeue element is %x\n",temp);
+                                     ^
+..\src\main.c:33:39: warning: passing argument 2 of 'FIFO_dequeue_item' from incompatible pointer type [-Wincompatible-pointer-types]
+         FIFO_dequeue_item(&uart_fifo, &temp);
+                                       ^
+In file included from ..\src\main.c:13:0:
+..\src\fifo.h:36:16: note: expected 'unsigned int *' but argument is of type 'unsigned int **'
+ FIFO_statuts_t FIFO_dequeue_item(FIFO_BUF_t* fifo_buf , element_type* item);
+                ^~~~~~~~~~~~~~~~~
+..\src\main.c:34:37: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'unsigned int *' [-Wformat=]
+         printf("dequeue element is %x\n",temp);
+                                     ^
+gcc -o main.exe "src\\fifo.o" "src\\main.o" 
+Info: Nothing to build for main

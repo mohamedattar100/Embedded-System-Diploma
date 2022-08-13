@@ -1,0 +1,22 @@
+/*
+ * lifo.h
+ *
+ *  Created on: Aug 2, 2022
+ *      Author: Mohamed
+ */
+
+#ifndef LIFO_H_
+#define LIFO_H_
+
+#include <stdlib.h>
+#include <stdio.h>
+
+typedef struct {
+	unsigned int length;
+	unsigned char* base;
+	unsigned char* head;
+	unsigned int count;
+}LIFO_BUF_t;
+
+
+#endif /* LIFO_H_ */

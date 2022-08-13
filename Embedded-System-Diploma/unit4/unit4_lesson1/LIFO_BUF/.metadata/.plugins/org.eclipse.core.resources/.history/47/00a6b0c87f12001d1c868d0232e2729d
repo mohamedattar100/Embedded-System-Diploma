@@ -1,0 +1,30 @@
+/*
+ * lifo.c
+ *
+ *  Created on: Aug 2, 2022
+ *      Author: Mohamed
+ */
+
+
+#include "lifo.h"
+
+lifo_statuts_t LIFO_add_item(LIFO_BUF_t* lifo_buf , unsigned int item){
+
+	if(!lifo_buf->head||!lifo_buf->base) return LIFO_NULL;
+	if ( lifo_buf->count== lifo_buf->length)return LIFO_FULL;
+	*(lifo_buf->head)=item;
+	lifo_buf->head++;
+	lifo_buf->count++;
+	return LIFO_NO_ERROR;
+
+}
+
+lifo_statuts_t LIFO_get_item(LIFO_BUF_t* lifo_buf , unsigned int* item){
+	if(!lifo_buf->head||!lifo_buf->base) return LIFO_NULL;
+	if(lifo_buf->count==0)return LIFO_EMPTY;
+	lifo_buf->head--;
+	*item = *(lifo_buf->head);
+		lifo_buf->count--;
+		return LIFO_NO_ERROR;
+}
+

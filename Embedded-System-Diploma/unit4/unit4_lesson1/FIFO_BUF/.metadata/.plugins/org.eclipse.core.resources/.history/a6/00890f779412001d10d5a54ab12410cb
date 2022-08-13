@@ -1,0 +1,22 @@
+/*
+ * fifo.c
+ *
+ *  Created on: Aug 2, 2022
+ *      Author: Mohamed
+ */
+
+#include "fifo.h"
+FIFO_statuts_t FIFO_enqueue_item(FIFO_BUF_t* fifo_buf , element_type item){
+
+	if(FIFO_is_full(fifo_buf ) == FIFO_NO_ERROR){
+	*(fifo_buf->head)=item;
+	fifo_buf->count++;
+	if(fifo_buf->head==(fifo_buf->base+(fifo_buf->length * sizeof(element_type))))
+		fifo_buf->head=fifo_buf->base;
+	else
+	 fifo_buf->head++;
+	return FIFO_NO_ERROR;
+	}
+
+}
+

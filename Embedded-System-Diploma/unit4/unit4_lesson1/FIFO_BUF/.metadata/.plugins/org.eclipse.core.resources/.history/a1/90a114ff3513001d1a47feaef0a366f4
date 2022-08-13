@@ -1,0 +1,32 @@
+/*
+ ============================================================================
+ Name        : main.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include "fifo.h"
+#define buffer_length 5
+element_type buffer1[buffer_length];
+
+int main(void) {
+	FIFO_BUF_t uart_fifo;
+	FIFO_init(&uart_fifo , buffer1,buffer_length);
+	unsigned char i,*temp;
+    for(i=0;i<7;i++)
+    {
+    	if ( FIFO_enqueue_item(&uart_fifo, i)==FIFO_NO_ERROR)
+    		printf("lifo add : %x\n",i);
+    }
+        FIFO_print(&uart_fifo);
+        FIFO_dequeue_item(&uart_fifo, &temp);
+        printf("FIFO dequeue data= %x\n",temp);
+
+
+
+}
